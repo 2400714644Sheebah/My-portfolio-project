@@ -1,0 +1,121 @@
+* {
+    background-color: aliceblue;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    line-height: 1.5;
+
+}
+
+.header img {
+    width: 10px;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+}
+
+.banner {
+    display: flex;
+
+}
+
+.banner div {
+    width: 33%;
+}
+
+img {
+    width: 100%;
+
+}
+
+.div h1 {
+    font-size: 50px;
+    padding: 40px 0 30px 0;
+}
+
+.banner p {
+    padding: 0 20px 20px 20px;
+}
+
+.banner button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto 50px;
+    flex-wrap: wrap;
+}
+
+.features div {
+    width: 33%;
+}
+
+.features img {
+    border-radius: 10%;
+    justify-content: space-between;
+}
+
+.feedback {
+    width: 60%;
+    margin: 20px auto 50px;
+}
+
+.feedback input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    text-align: left;
+}
+
+.feedback button {
+    width: auto;
+
+}
+
+footer,
+footer h3,
+footer p {
+    background-color: lightgrey;
+    color: #000;
+    padding: 20px 0;
+}
+
+.footer h3,
+footer p {
+    padding: 5px;
+}
+
+/* responsive Design */
+@media(max-width:900px) {
+    * {
+        #hide {
+            display: none;
+        }
+    }
+
+    .banner div {
+        50%
+    }
+
+    .features div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .feedback {
+        width: 80%;
+    }
+}
